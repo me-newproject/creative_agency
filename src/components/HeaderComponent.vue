@@ -385,28 +385,26 @@ ul>li>a:hover .panel-circle {
 
 
 .panel-image {
-    top: 0;
-    left: 0;
-    width: 65%;
+    top: -120px;
+    left: -200px;
+    width: 700px;
     height: auto;
     object-fit: cover;
-    object-position: -300px -200px;
+    /*object-position: -300px -200px; preferire top e left*/
     position: fixed;
     z-index: -2;
     
 }
 
 .panel-imagedue {
-    top: 0;
-    transform: translate(1000px, 100px);
+    top: 100px;
+    right: -100px;
+    /*transform: translate(1000px, 100px); preferire top e right*/
     width: 400px;
     object-fit: cover;
     position: fixed;
     z-index: -2;
 }
-
-
-
 
 
 .closex {
@@ -437,7 +435,9 @@ ul>li>a:hover .panel-circle {
 .right-panel {
     z-index: 2;
     position: fixed;
-    transform: translate(1050px, -100px);
+    /*transform: translate(1050px, -100px);*/
+    top: 200px;
+    right: 30px;
     cursor: pointer;
     font-size: 12px;
     letter-spacing: 2px;

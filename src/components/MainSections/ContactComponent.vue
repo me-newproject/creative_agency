@@ -4,14 +4,14 @@
 
             <div class="row">
 
-                <div class="col-lg-7">
+                <div class="col-lg-7 d-flex justify-content-center align-items-center">
 
-                    <div class="box">
-                        <div class="row g-3">
+                    <div class="box container-fluid ">
+                        <div class="row g-3 ">
                             <div class="title-form">
                                 <h2>Get In Touch</h2>
                             </div>
-                            <div class="col-md-5">
+                            <div class="col-lg-5 ">
                                 <div>
                                     <input class="form-control" id="your_name" name="userName" placeholder="Name"
                                         required="" type="text"
@@ -29,7 +29,7 @@
                                         style="width: 100%; height: 45px; margin-bottom: 25px;">
                                 </div>
                             </div>
-                            <div class="col-md-7">
+                            <div class="col-lg-7">
 
                                 <div>
                                     <textarea class="form-control" id="message" name="userMessage" placeholder="Message"
@@ -60,7 +60,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-5 order-first order-sm-1">
+                <div class="col-lg-5 d-flex justify-content-center align-items-center order-first order-sm-1">
                     <div class="box-location">
 
 
@@ -196,7 +196,7 @@ export default {
     font-size: 14px;
     border: 2px solid transparent;
     border-radius: 50px;
-    width: 609px;
+    width: 600px;
     height: auto;
     font-weight: 600;
     font-family: sans-serif;

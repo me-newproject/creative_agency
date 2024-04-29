@@ -436,7 +436,8 @@ export default {
 
 .btn-x {
     top: 0;
-    transform: translateY(-250px);
+    right: 0;
+    transform: translate(-20px ,-250px);
     font-size: 25px;
     border: 2px solid white;
     color: white;
